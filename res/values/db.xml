@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="db_version">1</string>
+	<string name="db_name">contas.db</string>
+	
+	<string name="db_conta_fake_data">
+		Conta de Agua, 2014-12-20, 78, 1;
+		Conta de Luz, 2014-12-30, 190, 1;
+		Faculdade, 2015-01-05, 450, 1;
+		Faculdade, 2015-02-10, 450, 1;
+		Salario Pacial, 2014-01-05, 1000, 0;
+		Salario Pacial, 2014-01-20, 800, 0;
+	</string>
+</resources>

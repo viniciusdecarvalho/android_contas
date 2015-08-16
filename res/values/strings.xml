@@ -1,0 +1,93 @@
+<resources>
+    <string name="app_name">Contas Pessoais</string>
+	<string name="conta_receber">Receitas</string>
+	<string name="conta_pagar">Despesas</string>
+	<string name="conta_totais">Totais</string>
+	
+	<string-array name="contas">
+	    <item>@string/conta_receber</item>
+	    <item>@string/conta_pagar</item>
+	    <item>@string/conta_totais</item>
+	</string-array>
+	
+	<string-array name="contas_totais">
+	    <item>\t\t\t@string/conta_receber</item>
+	    <item>\t\t\t@string/conta_pagar</item>
+	    <item>Abertas Vencidas \n\tR$: %.2f</item>
+	    <item>Abertas Vencidas \n\tR$: %.2f</item>
+	</string-array>
+	
+	<string name="contas_totais_receber">\t\t\t@string/conta_receber</string>
+	<string name="contas_totais_receber_abertas_vencidas">Abertas Vencidas \n\tR$: %.2f</string>
+	<string name="contas_totais_receber_abertas_nao_vencidas">Abertas Nao Vencidas \n\tR$: %.2f</string>
+	<string name="contas_totais_receber_abertas">Abertas \n\tR$: %.2f</string>
+	<string name="contas_totais_receber_pagas">Pagas \n\tR$: %.2f</string>
+	<string name="contas_totais_receber_total">Total \n\tR$: %.2f</string>
+	<string name="contas_totais_pagar">\t\t\t\@string/conta_pagar</string>
+	<string name="contas_totais_pagar_abertas_vencidas">Abertas Vencidas \n\tR$: %.2f</string>
+	<string name="contas_totais_pagar_abertas_nao_vencidas">Abertas Nao Vencidas \n\tR$: %.2f</string>
+	<string name="contas_totais_pagar_abertas">Abertas \n\tR$: %.2f</string>
+	<string name="contas_totais_pagar_pagas">Pagas \n\tR$: %.2f</string>
+	<string name="contas_totais_pagar_total">Total \n\tR$: %.2f</string>
+	<string name="contas_totais_lucro">Lucro (Receitas - Despesas) \n\tR$: %.2f"</string>
+	
+	<string name="contas_aberto">Abertas</string>
+	<string name="contas_paga">Pagas</string>
+	<string name="contas_todas">Todas</string>
+	<string name="altera">Alterar</string>
+	<string name="baixar">Baixar</string>
+	<string name="estorno">Estorno</string>
+	<string name="excluir">Excluir Conta</string>
+	
+	<string name="ok">Confirmar</string>
+	<string name="cancel">Cancelar</string>
+	
+	<string name="conta_detalhes">Informações da Conta</string>
+	<string name="conta_descricao">Descrição</string>
+	<string name="conta_data_vencimento">Vencimento&#160;</string>
+	<string name="conta_data_pagamento">Pagamento&#160;&#160;</string>
+	<string name="conta_valor">Valor R$&#160;&#160;&#160;&#160;</string>
+	
+	<string name="conta_situacao">Situação</string>
+	<string name="conta_situacao_aberto">Em Aberto</string>
+	<string name="conta_situacao_vencida">Vencida</string>
+	<string name="conta_situacao_paga">Paga</string>
+	
+	<string name="conta_insert">Adicionar Nova</string>
+	<string name="conta_save">Salvar</string>
+	<string name="conta_cancel">Cancelar</string>
+	<string name="conta_down">Baixar</string>
+	<string name="conta_up">Estornar</string>
+	<string name="conta_edit">Editar</string>
+	<string name="conta_delete">Excluir</string>
+	<string name="conta_insert_from">Incluir</string>
+	
+	<string name="conta_save_success">Conta Salva.</string>
+	<string name="conta_down_success">Conta Baixada.</string>
+	<string name="conta_up_success">Conta Estornda.</string>
+	<string name="conta_delete_success">Conta removida.</string>
+	
+	<!-- Messages -->
+	<string name="conta_all">Todos as contas serão mostradas.</string>
+	<string name="conta_exists">Já existe uma conta com esta descricao e a data informada.</string>
+	<string name="conta_indefined">conta com tipo null ou indefinido</string>
+	
+	<string name="conta_param">Parametros Gerais</string>
+	<string name="conta_param_ordem">Ordenar por</string>	
+	<string name="conta_param_start">Data Inicial</string>
+	<string name="conta_param_end">Data Final</string>
+	<string name="conta_param_clear">Limpar</string>
+	<string name="conta_param_start_invalid">A Data Inicial deve ser anterior a Data Final.</string>
+	<string name="conta_param_end_invalid">A Data Final deve ser posterior a Data Inicial.</string>
+	<string name="conta_param_reset">Resetar</string>			
+	
+	<string name="conta_descricao_fake">XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX</string>
+	<string name="conta_valor_fake">R$ 999.99</string>
+	<string name="conta_vencimento_fake">DD/MM/YYYY</string>
+	<string name="conta_pagamento_fake">DD/MM/YYYY</string>
+	<string name="conta_situacao_fake">Em Aberto</string>	
+	<string name="contas_param_data_entre_fake">01/12/2014 até 31/12/2014</string>
+	
+	<string name="empty"></string>
+	
+</resources>

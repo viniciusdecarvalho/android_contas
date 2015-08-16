@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scrollView"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+    
+	<LinearLayout 
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:background="#fff"
+	    android:orientation="vertical" >
+	    
+	    <Button
+	        android:id="@+id/conta_param_limpar"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_margin="5dp"
+	        android:textSize="12sp"
+	        android:text="@string/conta_param_clear" />
+	    
+	    <TextView 
+		    android:layout_width="fill_parent"
+	    	android:layout_height="wrap_content"
+	    	android:layout_margin="5dp"
+	    	android:textStyle="bold"
+	    	android:text="@string/conta_param_start" />
+	
+		<DatePicker android:id="@+id/conta_param_data_inicio"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_margin="5dp" />
+		
+		<TextView
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_margin="5dp"
+		    android:textStyle="bold"
+		    android:text="@string/conta_param_end" />
+	
+		<DatePicker android:id="@+id/conta_param_data_fim"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_margin="5dp"/>
+	
+		<TextView 
+		    android:layout_width="fill_parent"
+	    	android:layout_height="wrap_content"
+	    	android:layout_margin="5dp"
+	    	android:text="@string/conta_param_ordem" />
+	    
+	    <RadioGroup android:id="@+id/conta_param_ordena"
+	        android:orientation="horizontal"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content" >
+	
+	        <RadioButton
+	            android:id="@+id/conta_param_ordena_vencimento"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:textStyle="bold"
+	            android:textSize="12sp"
+	            android:layout_marginLeft="10dp"
+	            android:checked="true"
+	            android:text="@string/conta_data_vencimento" />
+	
+	        <RadioButton
+	            android:id="@+id/conta_param_ordena_pagamento"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:textStyle="bold"
+	            android:textSize="12sp"
+	            android:layout_marginLeft="5dp"
+	            android:text="@string/conta_data_pagamento" />
+	        
+	    </RadioGroup>
+		
+	</LinearLayout>
+</ScrollView>
